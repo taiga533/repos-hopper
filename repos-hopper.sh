@@ -109,6 +109,9 @@ remove_nonexistent_repos() {
 
 # メイン処理
 file="$HOME/.config/repos-hopper/git_repos.txt"
+# ディレクトリがなかったら作成
+[ ! -d "$(dirname "$file")" ] && mkdir -p "$(dirname "$file")"
+# ファイルがなかったら作成
 [ ! -f "$file" ] && touch "$file"
 
 case "$1" in
