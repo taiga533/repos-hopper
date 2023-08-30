@@ -134,6 +134,3 @@ case "$1" in
     goto_selected_repo "$file"
     ;;
 esac
-ユーザーのホームディレクトリにrepos-hopper.shを配置し、実行権限を付与する。
-ユーザーのbashrcに、以下の行を追加する。
-source "$HOME/repos-hopper.sh"
