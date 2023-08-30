@@ -1,6 +1,11 @@
 # 🦗Repos Hopper
 gitのリポジトリを楽に移動するためのツール。
 
+**動作させるにはfzfのインストールが必要です。**
+```
+apt install fzf
+```
+
 ## インストール・更新方法
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/taiga533/repos-hopper/main/install.sh)"
