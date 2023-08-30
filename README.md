@@ -3,7 +3,7 @@ gitのリポジトリを楽に移動するためのツール。
 
 ## インストール・更新方法
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/taiga533/repos-hopper/master/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/taiga533/repos-hopper/main/install.sh)"
 ```
 
 ## 使用方法
